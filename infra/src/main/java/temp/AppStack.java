@@ -43,7 +43,7 @@ public class AppStack extends Stack {
                 .handler("temp.FunctionRequestHandler")
                 .environment(environmentVariables)
                 .code(Code.fromAsset(functionPath()))
-                .timeout(Duration.seconds(10))
+                .timeout(Duration.seconds(20))
                 .memorySize(2048)
                 .tracing(Tracing.DISABLED)
                 .logRetention(RetentionDays.ONE_WEEK)
