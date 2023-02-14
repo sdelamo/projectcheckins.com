@@ -1,0 +1,5 @@
+
+rootProject.name="temp"
+
+include("app")
+include("infra")
