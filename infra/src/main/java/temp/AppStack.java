@@ -59,7 +59,7 @@ public class AppStack extends Stack {
                     .build());
         }
 
-        /*        Version currentVersion = function.getCurrentVersion();
+        Version currentVersion = function.getCurrentVersion();
 
         Alias prodAlias = Alias.Builder.create(this, "ProdAlias")
                 .aliasName("Prod")
@@ -72,7 +72,7 @@ public class AppStack extends Stack {
         CfnOutput.Builder.create(this, "MnTestApiUrl")
                 .exportName("MnTestApiUrl")
                 .value(api.getUrl())
-                .build();*/
+                .build();
     }
 
     public static String functionPath() {
